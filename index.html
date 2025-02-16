@@ -3,28 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Sykam Venkata</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Data Engineer | Power BI Architect | SQL Expert</p>
+        <div class="logo">MY PORTFOLIO</div>
         <nav>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Research & Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hello, I am <span>Your Name</span></h1>
+            <h2>Data Engineer | Power BI Architect | SQL Expert</h2>
+            <div class="buttons">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="your_resume.pdf" download class="btn-outline">Get CV</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="profile.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! I'm a passionate Data Engineer with expertise in SQL, Power BI, AWS, and Azure.</p>
+        <p>I'm a Data Engineer with expertise in SQL, Power BI, AWS, and Azure. I design and optimize data pipelines, create data visualization solutions, and contribute to AI research.</p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li><b>Power BI Architect</b> – ABC Corporation (2023-Present)</li>
+            <li><b>Data Engineer</b> – XYZ Analytics (2020-2023)</li>
+            <li><b>SQL Developer</b> – DataWorks Ltd. (2017-2020)</li>
+        </ul>
+    </section>
+
+    <!-- Academic Projects & Research -->
+    <section id="projects" class="section">
+        <h2>Academic Projects & Research</h2>
+        <ul>
+            <li><b>AI-Powered Drowsiness Detection</b> (IEEE MetroCon 2024)</li>
+            <li><b>Power BI Data Analytics Dashboard</b> (Data Science Capstone 2023)</li>
+        </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>📜 DP-203: Azure Data Engineer Associate</li>
+            <li>📜 AZ-204: Azure Developer Associate</li>
+            <li>📜 PL-300: Power BI Data Analyst</li>
+        </ul>
+    </section>
+
+    <!-- Resume Download -->
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Download my updated resume below.</p>
+        <a href="your_resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Let's collaborate! Feel free to reach out.</p>
+        <ul>
+            <li>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+            <li>🐙 GitHub: <a href="https://github.com/yourgithub">GitHub</a></li>
+        </ul>
     </section>
 
     <footer>
-        <p>© 2024 Sykam Venkata | <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></p>
+        <p>© 2024 Your Name | <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></p>
     </footer>
 
 </body>
